@@ -1,7 +1,7 @@
 #!/bin/bash
 
 srcdir=`dirname $0`
-test -z "$srcdir" && srcdir=.
+test -z "$srcdir"
 
 cd "$srcdir"
 libtoolize
